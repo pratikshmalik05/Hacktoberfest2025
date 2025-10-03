@@ -10,9 +10,10 @@ public class maxSubarray {
                 for (int k = start; k<=end;k++){
                     currSum += number[k];
                 }
+                System.out.println(currSum);
                 if ( currSum>maxSum){
                     maxSum = currSum;
-                    System.out.println(currSum);
+                    
                 }
 
                 
